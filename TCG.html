@@ -1,0 +1,281 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="utf-8">
+ <link href="css/style.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>關於TCG</title>
+</head>
+  <body>
+  
+  <div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:160px;">
+    <a href="#什麼是TCG" class="w3-bar-item w3-button">什麼是TCG</a>
+    <a href="#概要" class="w3-bar-item w3-button">概要</a>
+ <button class="w3-button w3-block w3-left-align" onclick="myAccFunc()">
+    銷售形式 <i class="fa fa-caret-down"></i>
+    </button>
+    <div id="demoAcc" class="w3-hide w3-white w3-card">
+      <a href="#銷售形式" class="w3-bar-item w3-button">商品</a>
+      <a href="#關於補充包" class="w3-bar-item w3-button">關於補充包</a>
+    </div>
+    <a href="#對戰" class="w3-bar-item w3-button">對戰</a>
+    <a href="#共同點" class="w3-bar-item w3-button">共同點</a>
+      <div class="w3-dropdown-click">
+        <button class="w3-button" onclick="myDropFunc()">
+          專業術語 <i class="fa fa-caret-down"></i>
+        </button>
+        <div id="demoDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+        <a href="#專業術語" class="w3-bar-item w3-button">前言</a>
+        <a href="#環境" class="w3-bar-item w3-button">環境</a>
+        <a href="#禁卡" class="w3-bar-item w3-button">禁卡表</a>
+        <a href="#退環境" class="w3-bar-item w3-button">退環境</a>
+        <a href="#主流" class="w3-bar-item w3-button">主流</a>
+        </div>
+      </div>
+      <a href="#周邊" class="w3-bar-item w3-button">周邊與配件</a>
+      <a href="#有名的TCG" class="w3-bar-item w3-button">有名的TCG</a>
+      <a href="#我有玩的TCG" class="w3-bar-item w3-button">我有玩的TCG</a>
+      <a href="#TCG的魅力" class="w3-bar-item w3-button">TCG的魅力</a>
+      <a href="#TCG對於我" class="w3-bar-item w3-button">TCG對於我</a>
+      <a href="#" class="w3-bar-item w3-button">回到頂端</a>
+      <a href="intetest.html" class="w3-bar-item w3-button">回到上一頁</a>
+  </div>
+  
+  <div class="w3-container" style="margin-left:160px">
+    <header class="main-header">
+        <h1>關於TCG</h1>
+      </header>
+    <h2 id="什麼是TCG">什麼是TCG</h2>
+    <p>交換卡片遊戲（英語：Trading Card Game，簡稱TCG）又稱集換式卡牌遊戲，是指使用販售的專用交換卡片所進行的卡片遊戲，多為一對一的雙人對戰形式。
+        <br>在英語圈裡通常也稱為可蒐集卡片遊戲（Collectable Card Game，簡稱CCG）。其他還有可改造卡片遊戲（Customizable Card Game）之稱呼。
+      </p>
+  <h2 id="概要">概要</h2>
+  <p>TCG和一般的卡片遊戲不同，各個玩家自由地、或根據規則將卡片做變化組合（組過的卡片組稱為「牌組」），為2個人或以上對戰的遊戲。
+    <br>1個種類的TCG通常存在有100種以上卡片（詳細後述），並且依其後所發售的卡片將使得規模變得更大。一般而言，將後來販售的追加卡片組進牌組裡，會變得更有利於遊戲。為了提升玩家的強化意欲也會舉辦定期的比賽。因此玩家在新卡片發售後收集並使用這些卡片強化自己的牌組用以打敗對手。
+    <br>TCG多半會對卡片設定不同的稀有度（Rarity）。結合了遊戲性與收集性質的這種系統在商業上展現出了高度的可能性，更有像《魔法風雲會》一般，設定了複雜的規則，並且舉辦國際比賽的TCG。
+  </p>
+  <h2 id="銷售形式">銷售形式</h2>
+<p>多數的TCG是以如下的形式銷售</p>
+<ol>
+    <li>Starter Pack/Deck（啟始包，亦稱預組）
+      <br>假定為未經驗者最先購買的組合。包含一定張數的卡片，通常買1盒或2盒就能夠馬上遊戲。一般裝有40-100張卡片，附有規則書或遊戲用小道具等。也稱為「構築濟牌組」。內容重視主題性且預先將卡片組合過。      
+    </li>
+    <li>Booster Pack（擴張包、補充包）
+      <br>適合已習慣遊戲、追求更多變玩法的玩家。通常隨機封入5～15張左右的卡片在1包裡，不開封無法知道內容物。其預想為與牌組進行組合，即強化持有的牌組，所以持有少量補充包在通常情況下無法進行遊戲。
+    </li>
+  </ol>
+<p id="關於補充包">關於補充包</p>
+<ol>
+  <li>稀有度（Rarity）
+    <br>通常卡片會設定有不同的稀有等級，多半包含以下的分類方式
+    <ul>
+      <li>普通卡（Common/Normal、C卡/N卡）</li>
+    <li>稀有卡（Rare、R卡）</li>
+    </ul>
+    <br>不同的遊戲會有不同種的稀有度，而通常不一樣的稀有度，卡片所展現出的外觀特效會不同
+    <br>會有許多收藏家收集高稀有度的卡片，所以通常同一種卡片會因為稀有度的不同而產生不同的價格
+  </li>
+  <li>發售日期
+    <br>同一個TCG系列會定期發售新的補充包讓玩家強化牌組，更新遊戲的環境
+    <br>並不只是補充包，預組也是一樣，只是大多情況下發售新預組並不會像補充包那麼頻繁
+  </li>
+  <li>配率
+    <br>在一盒補充包中，各稀有度的卡出現的張數是固定的，此稱為配率
+    <br>通常稀有度越高，在一盒中出現的張數會越少，反映了高稀有度的價值
+    <br>在少數情況下可能會出現開出與公開配率不同張數的情況，此現象通常稱為爆配率
+  </li>
+</ol>
+<h2 id="對戰">對戰</h2>
+<p>以販售TCG為主的商店，大多會設置可以低價或免費使用的對戰專用空間。不只是和熟人，在店家和不認識的玩家對戰也是TCG的樂趣之一
+  <br>卡片遊戲廠商也會舉辦官方比賽，大多舉辦比賽的店家會提供獎品吸引玩家參賽
+</p>
+<h2 id="共同點">共同點</h2>
+<p>絕大部分的TCG採用回合制的系統
+  <br>設有點數系統（《遊戲王》的「生命值」或《神奇寶貝卡片遊戲》的「獎賞卡」或《WIXOSS》的「生命護甲」等），以此決定最後的勝利條件或1場遊戲所需要的時間。
+  <br>雖然稱呼各異，有「場」「手牌」「牌庫」「棄牌區」的概念
+</p>
+<h2 id="專業術語">專業術語</h2>
+<p>每一種不同的TCG都有屬於該遊戲的專業術語，但有些術語的使用範圍廣泛，可謂是TCG玩家的共通語言
+  <br>以下為幾種常見的共通名詞:
+</p>
+<ol>
+  <li id="環境">環境
+    <br>環境即遊戲所進行的環境
+    <br>環境由一段時間內可使用的卡片所構成
+    <br>在不同的環境內，牌組的構成和走向可能有所不同
+  </li>
+  <li id="禁卡">禁卡表
+    <br>禁卡顧名思義為禁止使用的卡片
+    <br>禁止理由大多為單卡效果太過強力而對遊戲環境造成巨大影響
+    <br>在大多數情況下禁卡不會只出現一張，所以紀載那些禁卡的表稱作禁卡表
+  </li>
+  <li id="退環境">退環境
+    <br>並非每個TCG皆設有禁卡制度，還有另一限制強力單卡的制度，即為退環境
+    <br>前面有提及環境為何，退環境為環境完全更新的意思
+    <br>故舊環境的卡到了新環境將無法使用
+    <br>許多TCG藉由此作法限制強力單卡對環境的影響
+  </li>
+  <li id="主流">主流
+    <br>主流在許多方面皆可使用
+    <br>而到了TCG，主流即在當強環境下特別強勢的牌組
+    <br>主流牌組由於符合環境的走向，故有許多玩家使用並投入比賽
+    <br>而通常禁卡的人選大多由主流牌組中去挑選，以達到平衡環境的目的
+  </li>
+</ol>
+<h2 id="周邊">周邊與配件</h2>
+<p>為了更加舒適的遊玩品質，許多玩家會購買卡牌周邊
+  <br>以下為幾種常見的周邊:
+</p>
+<ol>
+  <li>卡套
+    <br>顧名思義就是用來保護卡片的套子
+    <br>材質為塑膠
+    <br>卡套有許多不同的尺寸和樣式
+    <ul>
+      <li>第一層
+      <br>通常直接套在卡片上，和卡片尺寸最貼合的透明卡套，俗稱第一層
+      <br>雖說都叫做第一層，但實際上還會因為尺寸不同而細分
+      <br>小卡第一層的尺寸為61*88mm
+      <br>大卡第一層的尺寸為65*90mm
+    </li>
+    <li>第二層
+      <br>第二層卡套大多為非透明卡套
+      <br>多數在卡背處印製圖案
+      <br>也有沒印製圖案的素色卡套存在
+      <br>有圖案的第二層卡套大多為遊戲商製造和發售
+      <br>也有第三方自行生產的同人卡套存在
+      <br>多數的正式比賽是禁止使用同人卡套的，這點需要多加注意
+    </li>
+    <li>第三層
+      <br>第三層多為透明卡套
+      <br>其目的為保護第二層的有圖卡套
+      <br>因為有圖卡套可能會因保存不良而造成退色或劣化
+      <br>所以許多玩家會選擇套第三層卡套
+    </li>
+    </ul>
+      <br>基本上第一層卡套為必需品
+      <br>沒套卡套容易造成卡片本身損傷
+      <br>沒套任何卡套的狀態俗稱裸卡，正常是不會有人用裸卡打牌的，因為這樣非常傷卡片
+  </li>
+  <li>卡盒
+    <br>卡盒主要功用為放置牌組及收納卡片
+    <br>材質多為塑膠，也有皮製甚至是金屬製的卡盒
+    <br>卡盒和卡套一樣，基本上是必需品
+  </li>
+  <li>卡墊
+    <br>卡墊為材質接近滑鼠墊的長方形墊子
+    <br>上面大多印製精美的圖案
+    <br>功用是當作「場」來使用
+    <br>卡墊價格通常較為昂貴且不一定要使用，所以並非必需品
+  </li>
+  <li>指示物
+    <br>指示物為遊戲進行中的小道具
+    <br>型態和種類沒有一定規範
+    <br>常見有骰子或小珠子之類的
+    <br>使用指示物與否通常視遊戲和玩家而定
+  </li>
+</ol>
+<h2 id="有名的TCG">有名的TCG</h2>
+<aside class="color-change">
+    <h3>以下為世界知名的TCG</h3>
+    <uL>
+    <li>
+        <img src="img/ygo.png" alt="related one" width=125" height="75">
+        <a href="https://www.yugioh-card.com/japan/" target="_blank">《遊戲王》</a>
+        <p>《遊戲王集換紙牌遊戲》（日文：遊☆戯☆王オフィシャルカードゲーム，簡稱遊戲王OCG）
+          是由日本科樂美公司開發與出版的交換卡片遊戲，根據日本漫畫家高橋和希的漫畫作品《遊戲王》中的部份內容改編，
+          此遊戲是該漫畫作品中除了初期以外的、以及其他衍生作品中的主要故事主題。</p>
+    </li>
+    <li>
+        <img src="img/MTG_logo.png" alt="related one" width=150" height="75">
+        <a href="https://magic.wizards.com/en" target="_blank">《魔法風雲會》</a>
+        <p>《魔法風雲會》（英語：Magic: The Gathering，簡稱：MTG），簡稱魔風。是一種交換卡片遊戲，
+          設計者為李察·加菲（Richard Channing Garfield），由威世智公司（Wizards of the Coast）出品，第一個系列出版於1993年。
+
+        </p>
+    </li>
+    <li>
+        <img src="img/ptcg.jpg" alt="related one" width=150" height="75">
+        <a href="https://asia.pokemon-card.com/tw/" target="_blank">《寶可夢集換式卡牌遊戲》</a>
+      
+        <p>寶可夢集換式卡牌遊戲（日語：ポケモンカードゲーム，英語：Pokémon Trading Card Game），簡稱PTCG
+          <br>遊戲概念基於電子遊戲版寶可夢系列的寶可夢戰鬥，所有寶可夢都有各自的攻擊（Attack）及HP（Health Point）
+          <br>當一隻寶可夢受到的傷害大過或等於它的剩餘HP時，它就會「氣絕」，並送到棄牌堆（Discard pile）
+        </p>
+    </li>
+    </uL>
+    </aside>
+    <h2 id="我有玩的TCG">我有玩的TCG</h2>
+<aside class="color-change">
+    <h3>以下為我有玩的TCG</h3>
+    <uL>
+    <li>
+        <img src="img/ygo.png" alt="related one" width=125" height="75">
+        <a href="https://www.yugioh-card.com/japan/" target="_blank">《遊戲王》</a>
+    </li>
+    <li>
+        <img src="img/Battle_spirits_logo.jpg" alt="related one" width=150" height="75">
+        <a href="https://www.battlespirits.com/" target="_blank">《Battle Spirits》</a>
+        <p>《Battle Spirits》為萬代出品的CARDDASS系列31周年紀念的卡片遊戲，
+          自2008年推出以來，已經推出了60代(加上BSC系列39代以及CB系列22代，一共121代)的擴充卡包和63副的基本卡組。
+
+        </p>
+    </li>
+    <li>
+        <img src="img/vg-logo.jpg" alt="related one" width=150" height="75">
+        <a href="https://cf-vanguard.com/" target="_blank">《卡片戰鬥!! 先導者》</a>
+      
+        <p>《卡片戰鬥!! 先導者》（日語：カードファイト!! ヴァンガード）
+          是由BUSHIROAD公司開發的一款新集換式卡牌對戰遊戲，並設有專門的對戰比賽卡牌大賽。
+        </p>
+    </li>
+    </uL>
+    </aside>
+    <h2 id="TCG的魅力">TCG的魅力</h2>
+    <p>TCG的魅力在於，每位玩家能夠依自己的風格建構牌組。研究卡片的效果，再根據所想要的玩法（彌補弱點、強化特色等）組出自己的牌組。
+      <br>在TCG裡，有使用複數卡片而達到更大效果的情形。在遊戲裡開發出對自己有利的組合技，也是一項重要的要素。
+      <br>對於不追求強度，而將喜愛的角色或根據特殊的主題所組成的牌組，稱之為Fun Deck。不論如何，能夠隨自己喜好來建構牌組是TCG的魅力所在。
+    </p>
+    <h2 id="TCG對於我">TCG對於我</h2>
+    <p>我從小就一直很喜歡玩卡牌遊戲，以前和過自電視播出的遊戲王動畫後就產生了濃厚的興趣及嚮往，國小的時候遊戲王一直是同學間熱門的話題，因為喜歡遊戲王和別人有了共通的話題
+。升上國中後，遊戲王就不再是熱門話題，反而很多人認為這是給小朋友玩的幼稚遊戲，即便如此我依然喜歡這款遊戲。除了遊戲王外我還接觸了多款不同的TCG，我不單單是喜歡遊戲王，更是喜歡玩牌時的快樂。
+在TCG上我投入了許多金錢和時間，雖然有人覺得不該為卡片花這麼多錢，但我覺得投入自己喜愛的事物並沒有不好，只要在合理的範圍內就好。藉由TCG我也認識到了許多好友，我覺得可以和別人玩TCG是件很快樂的事。
+    </p>
+    <p><a href="https://youtu.be/KCUTVwYpqu8" target="_blank">引發我共鳴的影片</a></p>
+    <footer>上述內容皆為網路彙整資料及我個人身為多年玩家的經驗，如有錯誤敬請見諒</footer>
+</div>
+  
+  <script>
+  function myAccFunc() {
+    var x = document.getElementById("demoAcc");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+      x.previousElementSibling.className += " w3-green";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+      x.previousElementSibling.className = 
+      x.previousElementSibling.className.replace(" w3-green", "");
+    }
+  }
+  
+  function myDropFunc() {
+    var x = document.getElementById("demoDrop");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+      x.previousElementSibling.className += " w3-green";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+      x.previousElementSibling.className = 
+      x.previousElementSibling.className.replace(" w3-green", "");
+    }
+  }
+  </script>    
+
+
+
+
+
+  </body>
+</html>
